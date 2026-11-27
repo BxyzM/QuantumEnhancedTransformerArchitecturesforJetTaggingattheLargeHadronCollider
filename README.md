@@ -85,8 +85,6 @@ thesis_models/           part.py (ParT, QUIVER) · qdimenet.py (DimeNet++, QDime
 data/                    demo inputs (.npz), preprocessed exactly as the models saw them in training
 weights/                 part/ (24 state dicts) · qm9/ (2 checkpoints) · vqc/ (all circuit weights + index.json)
 verification/            comparison of the notebook outputs with the original pipelines
-tools/                   export_*.py: provenance scripts that produced data/ and weights/ from the original runs;
-                         build_nb*.py: notebook generators; run_notebook.py: run a notebook without Jupyter
 LICENSES/                license texts of the third-party code (see THIRD_PARTY_NOTICES.md)
 ```
 
